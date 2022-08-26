@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.first-page{
+    width: 100%;
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav>span h2{
+    padding-left: 80px;
+}
+nav>span a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-weight: 700;
+    
+
+}
+/* --------------main camera style---------- */
+.container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-top: 80px;
+    text-align: justify;
+    padding-left: 80px;
+    
+}
+.half-width img{
+    width: 80%;
+}
+button{
+    color: white;
+    background-color: #f652A8
+    ;
+    text-decoration: none;
+    border: 10px solid #F652A8
+    ;
+    border-radius: 5px;
+    width: 3em:
+}
+hr{
+    border: 1px solid gray;
+    width: 950px;
+    
+}
+/* -----------icon set---------- */
+.icon{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+grid-column-gap: 3em;
+margin-left: 150px;
+justify-items: center;
+}
+/* --------------------setup 9 pic--------- */
+.popular{
+    margin-top: 80px;
+    
+}
+#pm{
+    
+    text-align: center;
+}
+.detail{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.image-set{
+    border: 10px solid whitesmoke;
+    border-radius: 5px gray;
+    padding-left: 8px;
+}
+.fa-star{
+    color: goldenrod;
+    font-size: 14px;
+}
